@@ -1,0 +1,64 @@
+nav {
+    background-color: #3d4ab2;
+    display: grid;
+    grid-template-rows: 10% 40% 40% 10%;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+
+}
+
+.titre {
+    display: grid;
+    grid-template-row: repeat(3,1fr);
+    justify-items: start;
+    align-items: center;
+}
+
+
+.logo img {
+    border-radius: 50%;
+}
+
+/*Tablette*/
+@media screen and (min-width: 425px) {
+    nav {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 10% 30% 40% 20%;
+        justify-items: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+
+    }
+
+    .titre {
+        height: 100%;
+        display: grid;
+        grid-template-row: repeat(3,1fr);
+        justify-items: start;
+        align-items: center;
+    }
+
+
+
+}
+
+/*Ecran Moyen desktop*/
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+/*Ecran Large desktop*/
+
+@media screen and (min-width: 1200px) {
+
+
+}
